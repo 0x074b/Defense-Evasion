@@ -6,9 +6,17 @@
 
 ![image](https://github.com/0x074b/Defense-Evasion/assets/83349783/6b95266a-0d09-4217-8642-01d7305a0995)
 
-*From a Meterpreter session the following commands can be used to retrieve the PID of the current session and by specifying the process name results will filtered only to that specific process.*
+*An approach could be to load the DLL inside the "LSASS" process. Threat hunting teams they will have to review the EventHeader ProcessId and the ParentProcessID in order to identify the process spoofing.*
 
-![image](https://github.com/0x074b/Defense-Evasion/assets/83349783/bfcfb112-ba95-4394-b93f-345f0bb71816)
+![image](https://github.com/0x074b/Defense-Evasion/assets/83349783/01cdb1c2-f6a9-41f2-abb5-6f018c065bd5)
+
+*A new "LSASS" process will created on the system that will load the arbitrary DLL.*
+
+![image](https://github.com/0x074b/Defense-Evasion/assets/83349783/ca594b48-9d46-40cf-80ca-de38dc184ac1)
+
+*A Meterpreter session will open with the process ID of 1312 which corresponds to "rundll32" process which is the child of "lsass.exe" that executes the DLL.*
+
+![image](https://github.com/0x074b/Defense-Evasion/assets/83349783/e609fa61-25aa-4106-9117-9e84d12722f8)
 
 # Usage
 
