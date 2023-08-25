@@ -7,3 +7,6 @@
 # Usage
 
 *replace "pid" on line 12 with the ppid to be spoofed*
+
+*A more complete project on this attack has already been published! check out* : 
+https://github.com/0x074b/PPIDS
