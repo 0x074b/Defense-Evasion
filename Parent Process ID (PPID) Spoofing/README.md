@@ -6,7 +6,7 @@
 
 ![image](https://github.com/0x074b/Defense-Evasion/assets/83349783/6b95266a-0d09-4217-8642-01d7305a0995)
 
-*An approach could be to load the DLL inside the "LSASS" process. Threat hunting teams they will have to review the EventHeader ProcessId and the ParentProcessID in order to identify the process spoofing.*
+*An approach could be to load the DLL inside the "LSASS" process.*
 
 ![image](https://github.com/0x074b/Defense-Evasion/assets/83349783/01cdb1c2-f6a9-41f2-abb5-6f018c065bd5)
 
