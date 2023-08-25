@@ -4,6 +4,9 @@
 *This helps attackers make it look as if their programs were spawned by another process (instead of the one that would have spawned it if no spoofing was done) and it may help evade detections,* 
 *that are based on parent/child process relationships.*
 
+![image](https://github.com/0x074b/Defense-Evasion/assets/83349783/6b95266a-0d09-4217-8642-01d7305a0995)
+
+
 # Usage
 
 *replace "pid" on line 12 with the ppid to be spoofed*
