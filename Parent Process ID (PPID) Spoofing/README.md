@@ -6,6 +6,9 @@
 
 ![image](https://github.com/0x074b/Defense-Evasion/assets/83349783/6b95266a-0d09-4217-8642-01d7305a0995)
 
+*From a Meterpreter session the following commands can be used to retrieve the PID of the current session and by specifying the process name results will filtered only to that specific process.*
+
+![image](https://github.com/0x074b/Defense-Evasion/assets/83349783/bfcfb112-ba95-4394-b93f-345f0bb71816)
 
 # Usage
 
