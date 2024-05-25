@@ -30,7 +30,7 @@ C:\Users\you\desktop>PPIDS.exe
 ```
 
 #### for educational purposes only !!
-# Demo
+# PoC
 https://youtu.be/d8XQeUbrc3w
 
 # Contact 💬
