@@ -20,9 +20,19 @@
 
 ![image](https://github.com/0x074b/Defense-Evasion/assets/83349783/e609fa61-25aa-4106-9117-9e84d12722f8)
 
-# Usage
+ # Usage 🛠
+```
+C:\Users\you\desktop>PPIDS.exe
+ -p  --pid <PID>    parent proccess ID
+ -c  --cmd <CMD>    command to execute (program)
+ usage: PPIDS.exe -c program -p pid
+ example: PPIDS.exe -c notepad.exe -p 5567
+```
 
-*replace "pid" on line 12 with the ppid to be spoofed*
+#### for educational purposes only !!
+# Demo
+https://youtu.be/d8XQeUbrc3w
 
-*A more complete project on this attack has already been published! check out* : 
-https://github.com/0x074b/PPIDS
+# Contact 💬
+#### Discord : capitaine_barnacles
+
