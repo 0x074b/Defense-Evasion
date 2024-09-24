@@ -10,3 +10,6 @@ calc.exe is spawned by regsvr32.exe:
 However, sysmon will show regsvr32 establishing a network connection:
 
 ![image](https://github.com/user-attachments/assets/7a0a4e63-47a9-4a3a-8987-1e449171381e)
+
+# References
+- https://attack.mitre.org/techniques/T1218/010/
